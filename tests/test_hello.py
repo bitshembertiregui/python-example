@@ -6,3 +6,4 @@ def test_says_world():
 
 def test_says_hello():
 	hello.hello(hello.say_what())
+
