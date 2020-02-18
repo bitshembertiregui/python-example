@@ -5,4 +5,4 @@ def test_says_world():
     assert hello.say_what() == 'world'
 
 def test_says_hello():
-    assert hello.main()
+    assert hello.hello(hello.say_what()) == 'hello world'
